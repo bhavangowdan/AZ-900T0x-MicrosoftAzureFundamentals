@@ -53,9 +53,8 @@ In this task, we will test if the resource lock protects a storage account in th
     | Storage account name | **storageaccountxxxx** |
     | Location | **(US) East US**  |
     | Performance | **Standard** |
-    | Account kind | **StorageV2 (general purpose v2)** |
     | Replication | **Locally redundant storage (LRS)** |
-    | Access tier (default) | **Hot** |
+
 
 3. Click **Review + Create** to review your storage account settings and allow Azure to validate the configuration. 
 
@@ -83,3 +82,4 @@ In this task, we will remove the resource lock and test.
 
 Congratulations! You created a resource group, added a lock to resource group and tested deletion, tested deleting a resource in the resource group, and removed the resource lock. 
 
+**wait for 5 minutes to do lab validaation**
